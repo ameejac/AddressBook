@@ -18,7 +18,7 @@ namespace AddressBookProgram
         public int Zip { get; set; }
 
         //created constructor method
-        public Contact(string firstName, string lastName , long phone, string address, string city, string state, int zip)
+        public Contact(string firstName, string lastName, long phone, string address, string city, string state, int zip)
         {
             FirstName = firstName;
             LastName = lastName;
